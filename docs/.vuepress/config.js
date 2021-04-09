@@ -4,6 +4,7 @@ module.exports = {
   head: [
     ['link', { rel: 'icon', href: '/logo.jpg' }],
   ],
+  dest: './dist',
   base: './',
   markdown: {
     lineNumbers: false
