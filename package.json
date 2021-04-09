@@ -1,0 +1,12 @@
+{
+  "name": "vue-wiki",
+  "version": "1.0.0",
+  "description": "wiki-前端开发文档",
+  "author": "zhongzihao",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "license": "ISC"
+}
