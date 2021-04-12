@@ -1,11 +1,11 @@
 module.exports = {
-  title: 'vue-wiki',
-  description: '我的个人网站',
+  title: 'wiki-前端开发文档',
+  description: 'wiki-前端开发文档',
   head: [
     ['link', { rel: 'icon', href: '/logo.jpg' }],
   ],
   dest: './dist',
-  base: '/doc/',
+  base: '/',
   markdown: {
     lineNumbers: false
   },
@@ -42,8 +42,20 @@ module.exports = {
   },
   themeConfig: {
     nav: [
-      { text: '前端基础', link: '/accumulate/' },
+      { text: '前端基础', link: '/guide/' },
+      { text: 'JS', link: '/js/' },
     ],
+    sidebar: {
+      '/': [
+        '',
+      ],
+      '/guide': [
+        '',
+      ],
+      '/js': [
+        '',
+      ],
+    },
     sidebar: 'auto',
     sidebarDepth: 2,
   }
